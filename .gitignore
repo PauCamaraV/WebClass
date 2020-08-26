@@ -1,0 +1,3 @@
+# Ignorar los siguientes folders y archivos
+nontrack/
+*.txt
