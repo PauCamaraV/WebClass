@@ -8,30 +8,36 @@
     <title> 9839 </title>
   </head>
   <body>
-    <div class="jumbotron text-center" style="margin-bottom:0; background-color:#DBD8F0" >
-      <h1>Paulina Cámara Vidales</h1>
-      <p> A01039839 </p> 
-    </div>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    
+
+    <nav class="navbar sticky-top navbar-light bg-light">
       <a class="navbar-brand" href="#">Menu</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">T1 </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">T2</a>
-          </li>
-        </ul>
-      </div>  
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">T1 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">T2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://google.com">Buscador</a>
+              </li>
+          </ul>
+        </div>  
     </nav>
 
-    <div class="container-fluid">
+    <div class="jumbotron text-center" style="background-color:#DBD8F0" >
+        <h1>Paulina Cámara Vidales</h1>
+        <p> A01039839 </p> 
+      </div>
+    <div class="container" >
       <div class="row"  >
-        <div class="col-sm-4" style="background-color:#9CCFFC" >
+        <div class="col-sm-4" style="background-color:#9CCFFC" id=Estudios>
           <h3>Estudios </h3>
           <p>	Ingeniería en Tecnologías de Computación <br>
             Tecnologico de Monterrey<br>		
@@ -39,7 +45,7 @@
             GPA: 92/100 
             </p>
         </div>
-        <div class="col-sm-3" style="background-color:#EAC5D8">
+        <div class="col-sm-3" style="background-color:#EAC5D8" id=Habilidades>
           <h3>Habilidades</h3>
           <p> - Python <br>	 
             - Java <br>	 
@@ -52,7 +58,7 @@
             - Tableau
             </p>
         </div>
-        <div class="col-sm-5" style="background-color:#C4F7A1" >
+        <div class="col-sm-5" style="background-color:#C4F7A1" id=ExpLaboral>
             <h3>Experiencia Laboral</h3>
             <p> <b>  Practicante de QA en Ecaresoft Mexico  </b>  <br>	 
               Agosto 2019 - Ahora <br>
@@ -68,5 +74,76 @@
       </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+          <div class="col-xl-1"  style="background-color:#aaa">
+            <h1>Columna 1</h1> 
+            <p>Relleno.</p>
+          </div>
+          <div class="col-xl-3"  style="background-color:#bbb">
+            <h1>Columna 2</h1> 
+            <p>Relleno.</p>
+          </div>
+          <div class="col-xl-8"  style="background-color:#ccc">
+            <h1>Columna 4</h1> 
+            <p>Relleno.</p>
+          </div>
+          <div class="col-xl-1"  style="background-color:#aaa">
+              <h1>Columna 5</h1> 
+              <p>Relleno.</p>
+            </div>
+            <div class="col-xl-3"  style="background-color:#bbb">
+              <h1>Columna 6</h1> 
+              <p>Relleno.</p>
+            </div>
+            <div class="col-xl-8"  style="background-color:#ccc">
+              <h1>Columna 7</h1> 
+              <p>Relleno.</p>
+            </div>
+        </div>
+      </div>
+
+    <div class="card text-center" id=Ancla>
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#Ancla">Link</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Estudios">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ExpLaboral" tabindex="-1" aria-disabled="true">Experiencia Laboral</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Especiales</h5>
+          </div>
+          <div class="container">
+            <div class="card" style="width: 18rem;">
+              <img src="http://i1.ytimg.com/vi/iAhifrd859w/maxresdefault.jpg" class="card-img-top" alt="Perrito">
+              <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p class="card-text">Texto informativo</p>
+                <a href="#" class="btn btn-primary">Salir</a>
+              </div>
+            </div>   
+        </div>
+      </div>
+
+      <br>
+      <p>Texto </p>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      
+
+     <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
   </body>
 </html>
