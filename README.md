@@ -1,4 +1,4 @@
-# WEB CLASS 
+# WEB Curricula
 Portafolio de actividades y tareas para la clase de Desarrollo de Aplicaciones Web. 
 
 ## Info General
